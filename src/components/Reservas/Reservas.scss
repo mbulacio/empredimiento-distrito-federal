@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+
+div#fondo-reservas {
+    background-image: url("../../assets/reservas.jpg");
+    background-color: #cccccc;
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    p {
+        width: 100%;
+        font-family: 'Sancreek', cursive;
+        background-color: #00bcae;
+        color: #b000c0;
+        text-align: center;
+        font-size: 2.1rem;
+
+        @media (max-width:659px) {
+            font-size: 1.9rem;
+            padding: 2%;
+        }
+
+        padding: 0.8rem;
+        height: auto;
+    }
+
+    div {
+        a {
+            font-family: 'Sancreek', cursive;
+            background-color: #ceff00;
+            border: 0.5rem dotted #ff2c92;
+            color: #fa2e91;
+            text-decoration: none;
+            margin-top: 3rem;
+            font-size: 1.5rem;
+            width: 100%;
+            height: auto;
+            padding-top: 1.2rem;
+            @media(min-width: 660px) {
+                margin-top: 4rem;
+                font-size: 1.6rem;
+                width: 30rem;
+                height: 25vh;
+            }
+            @media (min-width:992px) {
+                padding: 1.9rem;
+                font-size: 2rem;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+}
