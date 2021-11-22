@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sancreek&display=swap');
+
+footer{
+    font-family: 'Sancreek', cursive;
+    background-color: #212529;
+    div.margin{
+        @media (min-width:499px){
+            display: flex;
+            justify-content: center;
+            p{
+                margin: 0rem 2rem 0rem 3rem;
+                padding: 0.7rem 0rem 0rem 0rem;
+            }
+            a{
+                margin: 0rem 1.5rem 0rem 1.5rem;
+                .footer-logo{
+                    width: 2.2rem;
+                    margin: 0.5rem 0rem 0.5rem 0rem;
+                } 
+            }
+        }
+        @media (max-width:498px){
+            display: flex;
+            justify-content: space-evenly;
+            p{
+                padding: 0rem;
+                margin: 0.4rem 5rem 0rem 0rem;
+            }
+            a{
+                .footer-logo{
+                    width: 1.8rem;
+                    margin: 0.5rem 0rem 0.5rem 0rem;
+                } 
+            }
+        }
+    }
+    
+    p{
+        font-size: 1.6rem;
+         color: #fddb01; 
+    }
+
+    a{
+        .footer-logo{
+            width: 2rem;
+            margin: 0.5rem 0rem 0.5rem 0rem;
+        } 
+    }
+    
+}
+
+
