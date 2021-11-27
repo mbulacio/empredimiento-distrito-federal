@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+div#fondo{
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/opiniones.jpg");
+    
+    width: 100%;
+    height: 80vh;
+    @media(min-width: 992px){
+        height: 70vh;
+    }
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+blockquote{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    div{
+        .block-p{
+            text-align: center;
+            background-color: #a935dbbb;
+            border-radius: 5px;
+            color: #ffffff;
+            width: 80%;
+            height: auto;
+            margin-top: 2rem;
+            font-size: 1.4rem;
+            strong{
+                color: #00ffd5;
+                font-size: 2.3rem;
+                letter-spacing: 0.2rem;
+            }
+            @media(min-width: 660px){
+                width: 70%;
+                font-size: 1.55rem;
+                strong{
+                    font-size: 1.9rem;
+                    letter-spacing: 0.4rem;
+                }
+            }
+        }
+        @media (min-width:992px){
+            .block-p{
+                width: 45%;
+                font-size: 1.6rem;
+            }   
+            strong{
+                font-size: 2.7rem !important;
+                letter-spacing: 0.5rem;
+            }
+        }
+        
+    }
+}
